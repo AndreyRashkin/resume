@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  font-size: 16px;
+  font-family: "Roboto", "Regular", sans-serif;
+  color: #0f141e;
+  background: #f1f1f1;
+}
+@media screen and (max-width: 650px) {
+    .shap {
+        display: flex;
+        flex-direction: column;
+    }
+.ava {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.info {
+    
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.card {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.svaz2 {
+    flex-direction: column;
+}
+}
+.card {
+  border: #0f141e;
+  border-radius: 10px;
+  background-color: #314774;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+.container {
+  box-sizing: border-box;
+  max-width: 1219px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  border-radius: 10px;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+  height: 300px;
+  width: 200px;
+}
+a {
+  color: #626262;
+  text-decoration: none;
+}
+a:hover {
+  color: #314774;
+  text-decoration: underline;
+}
+a:active {
+  color: #111;
+}
+.btn {
+  background: #111;
+  padding: 15px 20px;
+  color: #f1f1f1;
+  border: 3px solid #626262;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.btn:hover {
+  opacity: 0.8;
+  color: salmon;
+}
+.list {
+  padding: 0 20px;
+}
+.list li {
+    color: #626262;
+    margin-bottom: 10px;
+}
+td {
+    color: #626262;
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+    text-align: center;
+}
+.table td {
+    padding-bottom: 10px;
+}
+.shap {
+    display: flex;
+    padding: 10px;
+}
+.info {
+    margin-left: 20px;
+}
+.info .ss {
+    font-style: italic;
+}
+p {
+    margin: 0;
+     color: #626262;
+}
+.soc {
+margin-top: 20px;
+
+}
+.aa {
+    font-size: 20px;
+    padding-bottom: 10px;
+    color: #111;
+}
+.svaz h2{
+    text-align: center;
+}
+input {
+    background: #f1f1f1; 
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    height: 40px;
+
+}
+.svaz2 {
+   display: flex;
+   margin-bottom: 30px;
+  
+}
+.gr {
+    margin-right: 20px;
+    box-sizing: border-box;
+    width: 100%;
+  
+    padding-bottom: 10px;
+}
+textarea {
+    background: #f1f1f1; 
+    border: none;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    margin-top: 15px;
+    width: 100%;
+    border-bottom: 1px solid #000;
+    height: 70px;
+}
